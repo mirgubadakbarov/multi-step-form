@@ -1,0 +1,42 @@
+.form_item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.input_top {
+  display: flex;
+  font-size: 1.4rem;
+}
+.form_input {
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--light-gray);
+  color: var(--marin-blue);
+  font-weight: 500;
+  transition: border-color 0.5s;
+}
+.form_input:focus::placeholder {
+  color: transparent;
+}
+
+.form_input::placeholder {
+  color: var(--cool-gray);
+}
+
+.error_message {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.2rem;
+  color: var(--strawberry-red);
+}
+.error_message::first-letter {
+  text-transform: uppercase;
+}
+
+.error {
+  border-color: red;
+}

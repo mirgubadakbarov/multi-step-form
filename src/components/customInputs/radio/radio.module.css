@@ -1,0 +1,38 @@
+.radio_label {
+  flex: 1;
+  border: 1px solid var(--light-gray);
+  padding: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.active_radio {
+  background-color: var(--alabaster);
+  border-color: var(--purplish-blue);
+}
+
+.radio_label:hover {
+  border-color: var(--purplish-blue);
+  transform: scale(1.01);
+  transition: all 0.3s;
+}
+.radio_input {
+  display: none;
+}
+.icon {
+  margin-bottom: 5rem;
+}
+.title {
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 1.4rem;
+  color: var(--cool-gray);
+}
+.description {
+  font-size: 1.2rem;
+}
+
+.error {
+  border-color: red;
+}

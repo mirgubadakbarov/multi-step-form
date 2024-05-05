@@ -1,0 +1,48 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-image: url("../../assets/images/bg-sidebar-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--white);
+  padding: 2.4rem;
+  width: 30%;
+  border-radius: 1rem;
+}
+
+.item {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item_number {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  background-color: var(--magnolia);
+  color: var(--marine-blue);
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
